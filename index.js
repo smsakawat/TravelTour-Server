@@ -111,7 +111,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Runnig TravelTour Server on Port -5000");
+  res.send("Runnig TravelTour Server on Port");
 });
 
 app.listen(port, () => {
